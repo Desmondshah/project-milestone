@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Modern web development research illustration</title>
+  <desc id="heroDesc">A laptop, a phone, and three highlighted research cards labeled Accessibility, Responsive Design, and Performance.</desc>
+  <rect width="760" height="520" rx="36" fill="#fbf5ea"/>
+  <circle cx="119" cy="110" r="70" fill="#f3dcc0"/>
+  <circle cx="638" cy="120" r="92" fill="#dcefe7"/>
+  <rect x="120" y="140" width="520" height="275" rx="22" fill="#24323d"/>
+  <rect x="147" y="164" width="466" height="216" rx="16" fill="#fffdf8"/>
+  <rect x="227" y="404" width="308" height="18" rx="9" fill="#24323d"/>
+  <rect x="186" y="425" width="394" height="22" rx="11" fill="#b0bcc1"/>
+  <rect x="464" y="196" width="110" height="148" rx="22" fill="#24323d"/>
+  <rect x="476" y="213" width="86" height="105" rx="14" fill="#fffdf8"/>
+  <circle cx="519" cy="331" r="5" fill="#fffdf8"/>
+  <rect x="180" y="190" width="204" height="44" rx="18" fill="#136f63"/>
+  <text x="202" y="218" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" fill="#ffffff">Accessibility</text>
+  <rect x="180" y="252" width="204" height="44" rx="18" fill="#c35a34"/>
+  <text x="197" y="280" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" fill="#ffffff">Responsive Design</text>
+  <rect x="180" y="314" width="204" height="44" rx="18" fill="#dfaa40"/>
+  <text x="214" y="342" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" fill="#24323d">Performance</text>
+  <rect x="410" y="210" width="34" height="112" rx="10" fill="#dcefe7"/>
+  <rect x="452" y="234" width="34" height="88" rx="10" fill="#f3dcc0"/>
+  <rect x="494" y="186" width="34" height="136" rx="10" fill="#cfe2ef"/>
+  <rect x="536" y="218" width="34" height="104" rx="10" fill="#ead9c1"/>
+  <path d="M180 178h394" stroke="#d7c8b5" stroke-width="4" stroke-linecap="round"/>
+</svg>

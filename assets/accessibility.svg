@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="a11yTitle a11yDesc">
+  <title id="a11yTitle">Accessibility illustration</title>
+  <desc id="a11yDesc">A webpage panel with keyboard, contrast, and alt text elements symbolizing accessible web design.</desc>
+  <rect width="760" height="520" rx="36" fill="#f9f4eb"/>
+  <circle cx="146" cy="106" r="74" fill="#dcefe7"/>
+  <circle cx="633" cy="383" r="88" fill="#f3dcc0"/>
+  <rect x="108" y="86" width="544" height="300" rx="24" fill="#24323d"/>
+  <rect x="132" y="112" width="496" height="248" rx="16" fill="#fffdf8"/>
+  <rect x="160" y="146" width="132" height="132" rx="18" fill="#136f63"/>
+  <circle cx="226" cy="187" r="24" fill="#fffdf8"/>
+  <rect x="194" y="221" width="64" height="26" rx="13" fill="#fffdf8"/>
+  <text x="177" y="262" font-family="Trebuchet MS, Arial, sans-serif" font-size="24" fill="#fffdf8">A11y</text>
+  <rect x="322" y="146" width="270" height="32" rx="16" fill="#efe2d1"/>
+  <rect x="322" y="192" width="222" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="322" y="224" width="240" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="322" y="256" width="188" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="156" y="406" width="448" height="64" rx="18" fill="#fffdf8" stroke="#d8c7b1" stroke-width="4"/>
+  <rect x="182" y="426" width="56" height="24" rx="8" fill="#24323d"/>
+  <rect x="248" y="426" width="56" height="24" rx="8" fill="#24323d"/>
+  <rect x="314" y="426" width="56" height="24" rx="8" fill="#24323d"/>
+  <rect x="380" y="426" width="132" height="24" rx="8" fill="#136f63"/>
+  <rect x="522" y="426" width="56" height="24" rx="8" fill="#24323d"/>
+  <text x="327" y="446" font-family="Trebuchet MS, Arial, sans-serif" font-size="14" fill="#ffffff">Keyboard access</text>
+</svg>

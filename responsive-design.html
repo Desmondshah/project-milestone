@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research page about responsive web design and how adaptable layouts improve web development.">
+  <title>Modern Web Development Research | Responsive Design</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Modern Web Development Research</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a class="current" aria-current="page" href="responsive-design.html">Responsive Design</a>
+        <a href="performance.html">Performance</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="page-intro">
+      <article class="panel page-title-card">
+        <p class="eyebrow">Topic Page Two</p>
+        <h1>Responsive design helps content adapt instead of break.</h1>
+        <p class="lead">
+          Responsive web design is the practice of building pages that adjust to the user's screen size,
+          device capabilities, and sometimes input methods. The goal is not to make separate sites for every
+          device, but to build one site that works well across different screens.
+        </p>
+        <div class="callout">
+          Main point: fluid layouts, flexible images, and well-chosen breakpoints help developers support
+          many devices without relying on fixed pixel widths.
+        </div>
+      </article>
+      <figure class="panel visual-panel">
+        <img src="assets/responsive.svg" width="760" height="520" alt="Illustration of the same website adapting across desktop, tablet, and phone screens.">
+        <figcaption>
+          The same content can reorganize for desktop, tablet, and mobile screens when the layout is responsive.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="card-grid section-spacer">
+      <article class="card">
+        <h3>Viewport basics</h3>
+        <p>
+          Responsive pages start with the viewport meta tag so mobile browsers render content according to the
+          device width rather than a desktop-sized assumption.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Flexible layout systems</h3>
+        <p>
+          CSS Grid and Flexbox help components grow, shrink, and wrap naturally as space changes.
+          This makes layouts more reliable than fixed-width positioning.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Content first</h3>
+        <p>
+          A strong responsive design keeps text readable, buttons reachable, and images within the screen without
+          forcing users to zoom or scroll sideways.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-grid section-spacer">
+      <article class="card">
+        <h2>Responsive Design Practices</h2>
+        <ul class="highlight-list">
+          <li>Use flexible widths like percentages, <code>fr</code> units, and <code>minmax()</code>.</li>
+          <li>Set images to scale with the layout using <code>max-width: 100%</code>.</li>
+          <li>Use media queries only when the content needs help, not for every device model.</li>
+          <li>Test tap targets, line length, spacing, and navigation on smaller screens.</li>
+          <li>Organize content so the most important information appears early on narrow layouts.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Example Pattern</h2>
+        <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}</code></pre>
+      </article>
+    </section>
+
+    <section class="card section-spacer">
+      <h2>Research-Based Summary</h2>
+      <p>
+        MDN explains that HTML is naturally flexible, but CSS is needed to control readability and layout as screens
+        grow or shrink. web.dev builds on that idea by recommending a device-agnostic approach: set the viewport,
+        keep content inside the viewport, and use flexible layout methods such as Grid and Flexbox.
+      </p>
+      <p class="tiny-note">
+        Source focus: MDN Responsive Web Design guide and web.dev Responsive Web Design Basics.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p id="course-note">
+        Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
+      </p>
+      <p>Built with semantic HTML and one shared CSS file for the milestone website.</p>
+    </div>
+  </footer>
+</body>
+</html>

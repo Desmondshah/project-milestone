@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research page about website performance, Core Web Vitals, and why speed matters in web development.">
+  <title>Modern Web Development Research | Performance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Modern Web Development Research</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="responsive-design.html">Responsive Design</a>
+        <a class="current" aria-current="page" href="performance.html">Performance</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="page-intro">
+      <article class="panel page-title-card">
+        <p class="eyebrow">Topic Page Three</p>
+        <h1>Performance shapes how trustworthy a website feels.</h1>
+        <p class="lead">
+          Users experience performance through speed, responsiveness, and visual stability. A page that loads quickly,
+          responds on time, and avoids unexpected layout shifts feels more reliable and easier to use.
+        </p>
+        <div class="callout">
+          Main point: performance is not only a technical benchmark. It affects user retention,
+          task completion, and confidence in the site.
+        </div>
+      </article>
+      <figure class="panel visual-panel">
+        <img src="assets/performance.svg" width="760" height="520" alt="Illustration of a speed gauge and cards labeled with Core Web Vitals thresholds.">
+        <figcaption>
+          Core Web Vitals summarize three user-centered metrics: loading, interactivity, and visual stability.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="card-grid section-spacer">
+      <article class="card">
+        <h3>Loading</h3>
+        <p>
+          Users want to see useful content quickly. Performance work often begins by reducing heavy images,
+          unnecessary scripts, and render-blocking resources.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Interactivity</h3>
+        <p>
+          Pages should respond to clicks, taps, and typing without visible lag. Too much JavaScript can delay
+          how quickly the browser can react.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Visual stability</h3>
+        <p>
+          Layout shifts can make users lose their place. Reserving space for images and embedded content helps the
+          interface stay stable while assets load.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-grid section-spacer">
+      <article class="card">
+        <h2>Core Web Vitals Snapshot</h2>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Metric</th>
+                <th scope="col">What it Measures</th>
+                <th scope="col">Good Threshold</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>LCP</td>
+                <td>How quickly the main visible content finishes loading.</td>
+                <td>2.5 seconds or less</td>
+              </tr>
+              <tr>
+                <td>INP</td>
+                <td>How responsive the page feels after the user interacts.</td>
+                <td>200 milliseconds or less</td>
+              </tr>
+              <tr>
+                <td>CLS</td>
+                <td>How much the layout shifts unexpectedly while loading.</td>
+                <td>0.1 or less</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <article class="card">
+        <h2>Common Performance Wins</h2>
+        <ul class="highlight-list">
+          <li>Compress and properly size images before publishing them.</li>
+          <li>Use semantic HTML and lean CSS before reaching for large script-heavy solutions.</li>
+          <li>Load only the fonts, scripts, and third-party widgets a page actually needs.</li>
+          <li>Set width and height on images so the browser can reserve space in advance.</li>
+          <li>Test real pages with Lighthouse or other performance tools before deployment.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card section-spacer">
+      <h2>Research-Based Summary</h2>
+      <p>
+        web.dev describes Core Web Vitals as user-centered metrics that apply to all web pages. The same source
+        also notes that speed matters because delays hurt retention and conversion, while faster sites improve
+        the overall experience. Performance work therefore supports both usability and project success.
+      </p>
+      <p class="tiny-note">
+        Source focus: web.dev articles on Core Web Vitals and why website speed matters.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p id="course-note">
+        Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
+      </p>
+      <p>Built with semantic HTML and one shared CSS file for the milestone website.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="responsiveTitle responsiveDesc">
+  <title id="responsiveTitle">Responsive design illustration</title>
+  <desc id="responsiveDesc">Three devices showing the same content adapting to desktop, tablet, and phone layouts.</desc>
+  <rect width="760" height="520" rx="36" fill="#f8f2e7"/>
+  <circle cx="136" cy="378" r="92" fill="#dcefe7"/>
+  <circle cx="628" cy="118" r="78" fill="#f3dcc0"/>
+  <rect x="74" y="132" width="360" height="220" rx="24" fill="#24323d"/>
+  <rect x="96" y="153" width="316" height="177" rx="16" fill="#fffdf8"/>
+  <rect x="476" y="120" width="154" height="246" rx="24" fill="#24323d"/>
+  <rect x="491" y="141" width="124" height="206" rx="16" fill="#fffdf8"/>
+  <rect x="284" y="74" width="132" height="276" rx="24" fill="#24323d"/>
+  <rect x="297" y="92" width="106" height="224" rx="14" fill="#fffdf8"/>
+  <rect x="124" y="184" width="112" height="108" rx="18" fill="#136f63"/>
+  <rect x="252" y="184" width="128" height="42" rx="16" fill="#efe2d1"/>
+  <rect x="252" y="240" width="128" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="252" y="270" width="98" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="314" y="122" width="72" height="52" rx="14" fill="#c35a34"/>
+  <rect x="314" y="190" width="72" height="28" rx="12" fill="#efe2d1"/>
+  <rect x="314" y="228" width="72" height="28" rx="12" fill="#efe2d1"/>
+  <rect x="314" y="266" width="72" height="28" rx="12" fill="#efe2d1"/>
+  <rect x="514" y="176" width="76" height="72" rx="14" fill="#dfaa40"/>
+  <rect x="514" y="264" width="76" height="18" rx="9" fill="#d9c8b4"/>
+  <rect x="514" y="295" width="62" height="18" rx="9" fill="#d9c8b4"/>
+  <text x="135" y="391" font-family="Trebuchet MS, Arial, sans-serif" font-size="22" fill="#24323d">Desktop</text>
+  <text x="317" y="391" font-family="Trebuchet MS, Arial, sans-serif" font-size="22" fill="#24323d">Tablet</text>
+  <text x="523" y="391" font-family="Trebuchet MS, Arial, sans-serif" font-size="22" fill="#24323d">Phone</text>
+</svg>

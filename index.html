@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research website about modern web development practices, including accessibility, responsive design, and performance.">
+  <title>Modern Web Development Research | Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Modern Web Development Research</a>
+      <!-- Shared navigation appears on every page for consistency. -->
+      <nav class="main-nav" aria-label="Primary">
+        <a class="current" aria-current="page" href="index.html">Home</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="responsive-design.html">Responsive Design</a>
+        <a href="performance.html">Performance</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <!-- Home page introduces the topic and links to the full site structure. -->
+    <section class="hero">
+      <div class="panel hero-copy">
+        <p class="eyebrow">IT 3203 Project Milestone #1</p>
+        <h1>Better websites are inclusive, flexible, and fast.</h1>
+        <p class="lead">
+          This website focuses on three important areas of web development:
+          accessibility, responsive design, and performance. These topics matter because
+          they help websites work better for different users, devices, and browsing conditions.
+        </p>
+        <ul class="key-terms">
+          <li>Semantic HTML</li>
+          <li>WCAG</li>
+          <li>Responsive Layout</li>
+          <li>Core Web Vitals</li>
+          <li>Media Queries</li>
+          <li>Usability</li>
+        </ul>
+        <div class="button-row">
+          <a class="button-link" href="accessibility.html">Explore the topic pages</a>
+          <a class="button-link secondary" href="resources.html">Review the research sources</a>
+        </div>
+      </div>
+      <figure class="panel visual-panel">
+        <img src="assets/research-hero.svg" width="760" height="520" alt="Illustration of a laptop and phone beside three web development research cards.">
+        <figcaption>
+          The site compares how accessibility, responsive design, and performance support modern web development.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section-grid section-spacer">
+      <article class="card">
+        <h2>Abstract</h2>
+        <p>
+          Web development is more than making a page look correct on one screen. A strong website should
+          be easy to use, readable on different devices, and efficient enough to load and respond well.
+          This site summarizes research from official web sources to explain why those goals matter.
+        </p>
+      </article>
+      <article class="card">
+        <h2>Table of Contents</h2>
+        <ol class="toc-list">
+          <li><a href="accessibility.html">Accessibility in practice</a></li>
+          <li><a href="responsive-design.html">Responsive design for many screens</a></li>
+          <li><a href="performance.html">Performance and Core Web Vitals</a></li>
+          <li><a href="concepts.html">Key concepts glossary</a></li>
+          <li><a href="resources.html">References and learning resources</a></li>
+          <li><a href="about.html">About this project</a></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="card section-spacer">
+      <h2>Research Pillars</h2>
+      <p>
+        These three topics appeared often in W3C, MDN, and web.dev materials, so they provide
+        a clear way to organize the research for this milestone.
+      </p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th scope="col">Pillar</th>
+              <th scope="col">Main Goal</th>
+              <th scope="col">Benefit to Users</th>
+              <th scope="col">Example Research Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Accessibility</td>
+              <td>Remove barriers for people with different abilities and situations.</td>
+              <td>Improves navigation, readability, and compatibility with assistive technology.</td>
+              <td>W3C Web Accessibility Initiative</td>
+            </tr>
+            <tr>
+              <td>Responsive Design</td>
+              <td>Make layouts adapt to screen size and input method.</td>
+              <td>Supports phones, tablets, laptops, and future devices more gracefully.</td>
+              <td>MDN and web.dev responsive design guidance</td>
+            </tr>
+            <tr>
+              <td>Performance</td>
+              <td>Reduce loading delays and unstable interactions.</td>
+              <td>Helps pages feel faster, clearer, and less frustrating.</td>
+              <td>web.dev Core Web Vitals documentation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card-grid section-spacer">
+      <article class="card">
+        <h3>Accessibility asks who can use the site.</h3>
+        <p>
+          W3C explains that accessible websites help more people use the web successfully,
+          including users with disabilities.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Responsive design asks where the site can work.</h3>
+        <p>
+          Responsive design keeps content readable across screen sizes by using flexible layouts,
+          viewport settings, adaptable images, and media queries.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Performance asks how the site feels in real life.</h3>
+        <p>
+          Fast and stable pages improve the user experience. Research on Core Web Vitals shows
+          that loading speed, interactivity, and visual stability all affect how a page feels.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p id="course-note">
+        Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
+      </p>
+      <p>Built with semantic HTML and one shared CSS file for the milestone website.</p>
+    </div>
+  </footer>
+</body>
+</html>
