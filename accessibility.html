@@ -18,6 +18,7 @@
         <a href="responsive-design.html">Responsive Design</a>
         <a href="performance.html">Performance</a>
         <a href="concepts.html">Key Concepts</a>
+        <a href="quiz.html">Quiz</a>
         <a href="resources.html">Resources</a>
         <a href="about.html">About</a>
       </nav>
@@ -30,13 +31,13 @@
         <p class="eyebrow">Topic Page One</p>
         <h1>Accessibility is a foundation for quality web development.</h1>
         <p class="lead">
-          W3C defines web accessibility as designing and developing websites, tools, and technologies so
-          people with disabilities can use them. In practice, this means making pages clear, keyboard-friendly,
-          readable, and compatible with assistive technologies.
+          W3C defines web accessibility as building websites, tools, and technologies so
+          people with disabilities can use them. In real use, that means making pages clear, keyboard-friendly,
+          readable, and compatible with assistive technology.
         </p>
         <div class="callout">
-          Main point: accessibility should be part of the basic design process, not added only at the end.
-          It improves website quality for users with permanent, temporary, or situational limitations.
+          Main point: accessibility should be part of the design process from the start, not something added at the end.
+          It helps users with permanent, temporary, and everyday situational limitations.
         </div>
       </article>
       <figure class="panel visual-panel">
@@ -98,13 +99,33 @@
       <h2>Research-Based Summary</h2>
       <p>
         W3C accessibility guidance shows that accessible design depends on both technical choices and content choices.
-        The code should communicate structure clearly, while the content should use readable language, clear labels,
-        and logical organization. MDN also emphasizes that accessibility should be part of normal development work,
-        not something added only after a site is finished.
+        The code should communicate structure clearly, and the content should use readable language, clear labels,
+        and a logical order. MDN also points out that accessibility should be part of normal development work,
+        not something saved for the very end.
       </p>
       <p class="tiny-note">
         Source focus: W3C Web Accessibility Initiative and MDN Accessibility documentation.
       </p>
+    </section>
+
+    <section class="section-grid section-spacer">
+      <article class="card">
+        <h2>Accessible Forms Matter Too</h2>
+        <p>
+          Forms are one of the easiest places for accessibility problems to show up. Every form control should
+          have a visible label, instructions should be clear, and error or success messages should not depend
+          on color alone. The same idea applies to the quiz on this site.
+        </p>
+      </article>
+      <article class="card">
+        <h2>Simple Accessibility Check</h2>
+        <ol class="toc-list">
+          <li>Tab through the page and confirm every interactive element receives focus.</li>
+          <li>Check whether headings describe the page structure in a logical order.</li>
+          <li>Read alt text and link text to verify they explain the content clearly.</li>
+          <li>Review color contrast and spacing so content stays readable.</li>
+        </ol>
+      </article>
     </section>
   </main>
 
@@ -113,7 +134,7 @@
       <p id="course-note">
         Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
       </p>
-      <p>Built with semantic HTML and one shared CSS file for the milestone website.</p>
+      <p>Built for milestone 2 with HTML, CSS, and a little JavaScript.</p>
     </div>
   </footer>
 </body>

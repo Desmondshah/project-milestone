@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Self-assessment quiz about accessibility, responsive design, and website performance.">
+  <title>Modern Web Development Research | Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Modern Web Development Research</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="accessibility.html">Accessibility</a>
+        <a href="responsive-design.html">Responsive Design</a>
+        <a href="performance.html">Performance</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a class="current" aria-current="page" href="quiz.html">Quiz</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-shell quiz-layout">
+    <section class="quiz-shell">
+      <article class="panel page-title-card">
+        <p class="eyebrow">Self-Assessment Quiz</p>
+        <h1>Check how well you understand the milestone research.</h1>
+        <p class="lead">
+          This quiz covers accessibility, responsive design, performance, and basic HTML forms.
+          Submit it to see your total score, whether you passed, and which answers you got right.
+        </p>
+        <div class="callout">
+          Passing target: get at least 4 out of 5 questions right. You can reset the form and try again anytime.
+        </div>
+      </article>
+      <aside class="card">
+        <h2>Quiz Format</h2>
+        <ul class="highlight-list">
+          <li>1 fill-in-the-blank question</li>
+          <li>3 single-answer multiple-choice questions</li>
+          <li>1 multi-selection question with more than one correct answer</li>
+          <li>Instant feedback shown below the form after submission</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- The quiz uses semantic fieldsets so each question is grouped clearly. -->
+    <form id="quiz-form" class="quiz-form" novalidate>
+      <fieldset class="question-card">
+        <legend>1. Fill in the blank</legend>
+        <p>
+          The responsive meta tag that tells mobile browsers to match the device width is named
+          <strong>_____</strong>.
+        </p>
+        <label for="question1">Your answer</label>
+        <input class="blank-input" id="question1" name="question1" type="text" required autocomplete="off">
+      </fieldset>
+
+      <fieldset class="question-card">
+        <legend>2. Multiple choice</legend>
+        <p>Which choice most directly helps screen reader users understand page structure?</p>
+        <div class="option-list">
+          <label><input type="radio" name="question2" value="Using a logical heading hierarchy" required>Using a logical heading hierarchy</label>
+          <label><input type="radio" name="question2" value="Centering all page text">Centering all page text</label>
+          <label><input type="radio" name="question2" value="Adding more decorative icons">Adding more decorative icons</label>
+          <label><input type="radio" name="question2" value="Removing section headings">Removing section headings</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="question-card">
+        <legend>3. Multiple choice</legend>
+        <p>Which CSS idea is most closely connected to creating flexible columns that adapt to available space?</p>
+        <div class="option-list">
+          <label><input type="radio" name="question3" value="Absolute positioning with fixed widths" required>Absolute positioning with fixed widths</label>
+          <label><input type="radio" name="question3" value="CSS Grid with minmax() tracks">CSS Grid with <code>minmax()</code> tracks</label>
+          <label><input type="radio" name="question3" value="Inline styles on every element">Inline styles on every element</label>
+          <label><input type="radio" name="question3" value="Table layouts for all page sections">Table layouts for all page sections</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="question-card">
+        <legend>4. Multiple choice</legend>
+        <p>Which Core Web Vitals metric measures unexpected visual movement while a page loads?</p>
+        <div class="option-list">
+          <label><input type="radio" name="question4" value="LCP" required>LCP</label>
+          <label><input type="radio" name="question4" value="CLS">CLS</label>
+          <label><input type="radio" name="question4" value="INP">INP</label>
+          <label><input type="radio" name="question4" value="FPS">FPS</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="question-card">
+        <legend>5. Multi-selection</legend>
+        <p id="question5-help">Which practices improve site quality based on the research in this project? Select all that apply.</p>
+        <div class="option-list" aria-describedby="question5-help question5-error">
+          <label><input type="checkbox" name="question5" value="Using semantic HTML">Using semantic HTML</label>
+          <label><input type="checkbox" name="question5" value="Writing clear form labels">Writing clear form labels</label>
+          <label><input type="checkbox" name="question5" value="Setting image width and height">Setting image width and height</label>
+          <label><input type="checkbox" name="question5" value="Autoplaying audio on page load">Autoplaying audio on page load</label>
+          <label><input type="checkbox" name="question5" value="Locking the layout to one desktop width">Locking the layout to one desktop width</label>
+        </div>
+        <p id="question5-error" class="question-error" hidden>Select at least one answer for question 5.</p>
+      </fieldset>
+
+      <div class="quiz-actions">
+        <button class="button" type="submit">Submit quiz</button>
+        <button class="button secondary" type="reset">Retake or reset quiz</button>
+      </div>
+      <p class="quiz-note">Results appear below the form on the same page right after submission.</p>
+    </form>
+
+    <!-- Results appear after the user submits the quiz. -->
+    <section id="quiz-results" class="panel results-panel" aria-live="polite" hidden></section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p id="course-note">
+        Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
+      </p>
+      <p>Built for milestone 2 with HTML, CSS, and a little JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>

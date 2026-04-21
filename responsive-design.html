@@ -18,6 +18,7 @@
         <a class="current" aria-current="page" href="responsive-design.html">Responsive Design</a>
         <a href="performance.html">Performance</a>
         <a href="concepts.html">Key Concepts</a>
+        <a href="quiz.html">Quiz</a>
         <a href="resources.html">Resources</a>
         <a href="about.html">About</a>
       </nav>
@@ -30,13 +31,13 @@
         <p class="eyebrow">Topic Page Two</p>
         <h1>Responsive design helps content adapt instead of break.</h1>
         <p class="lead">
-          Responsive web design is the practice of building pages that adjust to the user's screen size,
-          device capabilities, and sometimes input methods. The goal is not to make separate sites for every
-          device, but to build one site that works well across different screens.
+          Responsive web design is about building pages that adjust to the user's screen size,
+          device capabilities, and sometimes input method. The goal is not to make a separate site for every
+          device, but to build one site that still works well across different screens.
         </p>
         <div class="callout">
-          Main point: fluid layouts, flexible images, and well-chosen breakpoints help developers support
-          many devices without relying on fixed pixel widths.
+          Main point: fluid layouts, flexible images, and smart breakpoints help developers support
+          a lot of devices without relying on fixed pixel widths.
         </div>
       </article>
       <figure class="panel visual-panel">
@@ -102,13 +103,32 @@ img {
     <section class="card section-spacer">
       <h2>Research-Based Summary</h2>
       <p>
-        MDN explains that HTML is naturally flexible, but CSS is needed to control readability and layout as screens
-        grow or shrink. web.dev builds on that idea by recommending a device-agnostic approach: set the viewport,
-        keep content inside the viewport, and use flexible layout methods such as Grid and Flexbox.
+        MDN explains that HTML is naturally flexible, but CSS is what really helps control readability and layout as screens
+        grow or shrink. web.dev builds on that by recommending a device-agnostic approach: set the viewport,
+        keep content inside the screen, and use flexible layout methods like Grid and Flexbox.
       </p>
       <p class="tiny-note">
         Source focus: MDN Responsive Web Design guide and web.dev Responsive Web Design Basics.
       </p>
+    </section>
+
+    <section class="section-grid section-spacer">
+      <article class="card">
+        <h2>Mobile-First Thinking</h2>
+        <p>
+          Starting with a narrow layout helps developers focus on the most important content first. From there,
+          larger breakpoints can add columns, spacing, and supporting visuals without getting in the way of the main message.
+        </p>
+      </article>
+      <article class="card">
+        <h2>Responsive Testing Notes</h2>
+        <ul class="highlight-list">
+          <li>Resize the browser slowly instead of checking only a few preset widths.</li>
+          <li>Watch whether navigation wraps cleanly and stays easy to tap.</li>
+          <li>Confirm tables, cards, and code blocks still fit smaller screens.</li>
+          <li>Check line length so paragraphs remain readable on wide displays.</li>
+        </ul>
+      </article>
     </section>
   </main>
 
@@ -117,7 +137,7 @@ img {
       <p id="course-note">
         Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
       </p>
-      <p>Built with semantic HTML and one shared CSS file for the milestone website.</p>
+      <p>Built for milestone 2 with HTML, CSS, and a little JavaScript.</p>
     </div>
   </footer>
 </body>
