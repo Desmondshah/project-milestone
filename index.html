@@ -6,14 +6,18 @@
   <meta name="description" content="Research website about modern web development practices, including accessibility, responsive design, and performance.">
   <title>Modern Web Development Research | Home</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">Modern Web Development Research</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
       <!-- Shared navigation appears on every page for consistency. -->
-      <nav class="main-nav" aria-label="Primary">
+      <nav id="primary-navigation" class="main-nav" aria-label="Primary">
         <a class="current" aria-current="page" href="index.html">Home</a>
         <a href="accessibility.html">Accessibility</a>
         <a href="responsive-design.html">Responsive Design</a>
@@ -30,13 +34,14 @@
     <!-- Home page introduces the topic and links to the full site structure. -->
     <section class="hero">
       <div class="panel hero-copy">
-        <p class="eyebrow">IT 3203 Project Milestone #2</p>
+        <p class="eyebrow">IT 3203 Project Milestone #3</p>
         <h1>Better websites are inclusive, flexible, and fast.</h1>
         <p class="lead">
           This site is about three big parts of web development:
           accessibility, responsive design, and performance. I picked these topics because
           they show how a website can work better for different people, devices, and situations.
-          For milestone 2, I also added a quiz so readers can check what they picked up.
+          For milestone 3, I finalized the research and improved the site for phone,
+          tablet, and desktop screens.
         </p>
         <ul class="key-terms">
           <li>Semantic HTML</li>
@@ -125,12 +130,12 @@
 
     <section class="section-grid section-spacer">
       <article class="card">
-        <h2>What Milestone 2 Adds</h2>
+        <h2>What Milestone 3 Adds</h2>
         <ul class="highlight-list">
-          <li>A quiz page built with HTML form controls and JavaScript scoring.</li>
-          <li>Instant pass or fail feedback with a score breakdown for each question.</li>
-          <li>More notes, glossary entries, and references to build out the research.</li>
-          <li>Updated navigation so every page includes the quiz link.</li>
+          <li>Responsive layouts that stack cleanly for tablet and phone screens.</li>
+          <li>Mobile-friendly navigation with larger tap targets at narrow widths.</li>
+          <li>Scrollable data tables, flexible images, and quiz controls sized for touch.</li>
+          <li>Finalized topic pages, glossary entries, and reference links.</li>
         </ul>
       </article>
       <article class="card">
@@ -174,7 +179,7 @@
       <p id="course-note">
         Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
       </p>
-      <p>Built for milestone 2 with HTML, CSS, and a little JavaScript.</p>
+      <p>Built for milestone 3 with HTML, CSS, and a little JavaScript.</p>
     </div>
   </footer>
 </body>

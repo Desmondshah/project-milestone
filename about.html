@@ -6,13 +6,17 @@
   <meta name="description" content="About page for the IT 3203 milestone research website.">
   <title>Modern Web Development Research | About</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">Modern Web Development Research</a>
-      <nav class="main-nav" aria-label="Primary">
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-navigation" class="main-nav" aria-label="Primary">
         <a href="index.html">Home</a>
         <a href="accessibility.html">Accessibility</a>
         <a href="responsive-design.html">Responsive Design</a>
@@ -33,11 +37,11 @@
         <p>
           My name is Desmond Shah, and I am an IT student. I made this website for IT 3203 to share
           research on modern web development. The main focus is how accessibility,
-          responsive design, and performance work together to make websites better, and milestone 2 adds a quiz
-          to make the project more interactive.
+          responsive design, and performance work together to make websites better, and milestone 3
+          improves the site for phone, tablet, and desktop screens.
         </p>
         <p class="tiny-note">
-          This page is a quick intro to me and to how the project changed from milestone 1 to milestone 2.
+          This page is a quick intro to me and to how the project changed from milestone 1 to milestone 3.
         </p>
       </article>
       <article class="card">
@@ -68,10 +72,10 @@
         </p>
       </article>
       <article class="card">
-        <h3>Milestone 2 work</h3>
+        <h3>Milestone 3 work</h3>
         <p>
-          In this milestone, I added more research content, more references and glossary terms,
-          improved the navigation, and built a self-assessment quiz with instant feedback and reset behavior.
+          In this milestone, I finalized the research content, added stronger responsive CSS,
+          improved mobile navigation, and kept the self-assessment quiz usable on smaller screens.
         </p>
       </article>
     </section>
@@ -91,7 +95,7 @@
       <p id="course-note">
         Class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203 Web Development</a>.
       </p>
-      <p>Built for milestone 2 with HTML, CSS, and a little JavaScript.</p>
+      <p>Built for milestone 3 with HTML, CSS, and a little JavaScript.</p>
     </div>
   </footer>
 </body>
